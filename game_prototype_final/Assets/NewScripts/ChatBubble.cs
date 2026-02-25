@@ -35,7 +35,7 @@ private void Setup (string text)
         textMeshPro.ForceMeshUpdate();
        Vector2 textSize = textMeshPro.GetRenderedValues(false);
 
-       Vector2 padding = new Vector2(7f, 2f);
+       Vector2 padding = new Vector2(3f, 2f);
        backgroundSpriteRenderer.size = textSize + padding;
 
        backgroundSpriteRenderer.transform.localPosition = new Vector3(backgroundSpriteRenderer.size.x / 50, 0.5f);
