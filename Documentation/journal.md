@@ -160,7 +160,37 @@ For next week, I know I will finally have more time to allocate to this project.
 
 ## Journal 06 | Due 2026-02-26
 
+## Ideation
+
+During last class, the ideation workshop brought up some very interesting and unexpected ideas. Two ideas which I thought were the strongest were:
+
+1. A game which followed the story of a patient at a hospital, who passes between the world of the living and the dead, as the player acts as two different nurses, one human and one a ghost, as they try together to keep the patient alive, and bring their soul from the land of the dead back to their body. This game would play with different mechanics on either side of life and death.
+
+2. Something much more lighthearted, this game would follow the player as the new owner of an antique store, in which all the "souls" of the old objects come to life as interactable NPCs with their own stories and personalities. Using similar mechanics to a 'dating sim', a player would build relationships with the object characters only to (plot twist!) find out that the stronger the relationshp with a character, the more their related object would sell for in their store. A player would have to balance selling objects, mainting relationships, and navigating the overall story.
+
+As much as I liked these two ideas, I find the first one to be still relatively vague in its design, though thematically strong and poignant. The second is much more developped, and I could very easily see how it could be adapted into a real project, especially since it bases itself off of well-established mechanics. However, as much as I found these ideas intriguing, I still did not feel that passionate about them. As well, a bigger factor in me not choosing these ideas is that the partner I was with for both ideas asked to use the ideas potentially for their own projects, which I was fine with.
+
+## TITLE FOR POSSIBLE IDEA
+[WRITE ABOUT POSSIBLE IDEAS HERE, Design values, constraints]
+
+
+## Practical Application
+
+For this week's practical application in Unity, I decided to finally set up an interaction system. Although this particular project is based on my original idea, the nice thing about this is that it can easily be built upon and managed to work with different projects. Below is an example of a player,NPC interaction, in which the result is a textbox appearing, assigned to the individual NPC.
+
 ![](media/interaction.gif)
+
+Although this particular example creates a bubble, the expandability is created through this very simple code. Basically, it manages prefabs within the project, creating instances of them. 
 ![](media/assetcreator.png)
+
+This allows an instance to be called easily through code and, using the create function defined in the prefab, specific parameters can be defined for that specific instance. Below is the code displaying the create function for the text bubble, as well as the rest of the code.
 ![](media/chatbubble.png)
+
+Here, the create function is finally being called in the previously created NPC Interactable Script.
 ![](media/NPC_interactable.png)
+
+This system was created following a variety of videos from Code Monkey on YouTube namely this one: https://www.youtube.com/watch?v=LdoImzaY6M4&t=517s
+
+## Goals
+
+For next week, I really want to continue to build the interaction system, but I also want to focus more heavily on design work. I'd like to solidify my idea and create a list of the assets I will need to make.
