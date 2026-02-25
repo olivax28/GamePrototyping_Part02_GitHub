@@ -162,5 +162,5 @@ For next week, I know I will finally have more time to allocate to this project.
 
 ![](media/interaction.gif)
 ![](media/assetcreator.png)
-![](media/assetcreator.png)
+![](media/chatbubble.png)
 ![](media/NPC_interactable.png)
