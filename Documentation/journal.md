@@ -170,9 +170,25 @@ During last class, the ideation workshop brought up some very interesting and un
 
 As much as I liked these two ideas, I find the first one to be still relatively vague in its design, though thematically strong and poignant. The second is much more developped, and I could very easily see how it could be adapted into a real project, especially since it bases itself off of well-established mechanics. However, as much as I found these ideas intriguing, I still did not feel that passionate about them. As well, a bigger factor in me not choosing these ideas is that the partner I was with for both ideas asked to use the ideas potentially for their own projects, which I was fine with.
 
-## TITLE FOR POSSIBLE IDEA
-[WRITE ABOUT POSSIBLE IDEAS HERE, Design values, constraints]
+## Design Values and Constraints
 
+I think that I will continue to move forward with the idea that I've been developing since the beginning of the journal. However, I am wondering whether it may be more interesting if, instea dof recieving an item and working on its physical repairs, it may be more interesting for the player to have to fix software-related repairs instead, sending the player to explore the files hidden within the machine. 
+
+Design values:
+- Atmosphere, Storytelling
+- Smoothness of the experience
+- Immersiveness
+
+Constraints to Consider:
+- time
+Means: I will need to keep the scope of my project small. I only have a few weeks, so I need to look to reusing assets, building modular, multi-functinal code, and creating an experience that feels complete despite being short.
+Solution: Limit scope, (potentially worked out last week)
+- overall knowledge of C# and Unity
+Means: Since I am still becoming familiar with the program I will be using, I want to keep the mechanics simple enough that I can continue learning and finding helpful resources while still building the experience. 
+Solution: Stick to well-established game mechanics, use these tools in ways which will create a uniwue experience, while having resources to rely on
+- Technical Constraints (machine power)
+Means: While my computers are well set up for game-dev, there are still certain things that every machine will struggle with. For example, I mentioned the grass I made back in Journak 5 used Unity's inbuilt environment creator which struggled greatly with performance. This point can lead back to the time aspect as well. I will need to find ways to express the visuals in a way which will save time and will run on most machines.
+Solution: Stick to simple styles. My idea right now would resemble the old PS1 style graphics of the 90s and early 2000s. To fill out the sets, I may need to rely on a limited amount of downloaded assets as well.
 
 ## Practical Application
 
