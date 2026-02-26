@@ -209,4 +209,4 @@ This system was created following a variety of videos from Code Monkey on YouTub
 
 ## Goals
 
-For next week, I really want to continue to build the interaction system, but I also want to focus more heavily on design work. I'd like to solidify my idea and create a list of the assets I will need to make.
+For next week, I really want to continue to build the interaction system, but I also want to focus more heavily on design work. I'd like to solidify my idea and create a list of the assets I will need to make. I'm realizing that it may have been more on-topic for this week to have done the design work first, and focused on the coding part during the break. However, I have been promising myself to finish the interaction system for a few weeks now, so I feel accomplished having done that. Next week, given that it will be March break, I will have time to work on both mechanical coding aspects as well as planning. 
