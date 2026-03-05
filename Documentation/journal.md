@@ -255,7 +255,7 @@ However, what makes Chapter 3’s final boss stand out to me the most is how the
 
 In the example above, the player is represented with the same cowboy shooter game as before, but this time has to dodge the boss’s bullets in order to not take damage, instead of dealing the damage themselves. This is similar enough to the first version so that the player can prepare themselves and strategize, while still remaining exciting. Not only does it add to a player’s experience by breaking up what would otherwise be repetitive, but it also lends to the game’s immersion and worldbuilding.
 
-##Takeaways
+## Takeaways
 
 Toby Fox plays with the expectations of a player through the subversion of tropes, presenting an interface and mechanics system that seems familiar, only to constantly ask the player to engage in these battles in more ways than the usual strategizing. Instead, a player meaningfully interacts with the unique characteristics of each character or creature within the world of Deltarune. Not only is each enemy encounter rendered more exciting, but it directly lends to a player’s understanding of the world itself. Although I am not someone who dislikes fighting based games, I have found myself becoming bored with repetitive battles in the past, and have asked myself how I could improve on the ever-popular turn based fighting system. With humour and an unapologetic appreciation for the unexpected, Deltarune seems to answer that question.
 
