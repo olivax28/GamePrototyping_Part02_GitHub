@@ -213,9 +213,54 @@ For next week, I really want to continue to build the interaction system, but I 
 
 ## Extra Credit Paper - Iteration and Variation in Deltarune's Enemy fights
 
+## Introducing Deltarune
+
+Deltarune is an Indie developed 2D RPG released episodically by creator Toby Fox, also well known for his popular 2015 release of Undertale. As of now, there have been 4 chapters released out of 7, with a new chapter set to release in 2026. Toby Fox is known for a quirky, offbeat form of storytelling, often taking the player by surprise by subverting conventions of gameplay. His style affects every form of the game’s experience, expressing originality not just through storytelling and character work, but through fighting mechanics as well.
+
+However,Deltarune, despite Toby Fox’s usual tendency towards the unusual, actually takes on a more traditional looking fight system than its predecessor, Undertale. Like many retro and pixel-style RPGs, Deltarune uses a turn-based combat system wherein a player’s party members can be upgraded and equipped with items found through exploration and enemy attacks take on a “bullet-hell” format. Below is an annotated screenshot of a typical battle within the game.
+
+![](media/deltarune_diagram.png)
+
+This layout should be familiar with most players, especially those well acquainted with videogames, being reminiscent of games such as Pokemon or Final fantasy. But although he recreates the traditional battle mechanics within Deltarune, Toby Fox also seems to know that these traditional style battles can also become repetitive and tedious, especially when facing many enemy encounters in a row. As if as a response to this, Toby Fox adapts the turn-based RPG gameplay for his unique and unexpected way of worldbuilding, which keeps a player engaged while also allowing for different play styles.
+
+## It’s (not) life or death
+
+One of the most popular aspects of Toby Fox’s games, which applies to Deltarune as well, is that a player is not required to kill every enemy in order to progress. In fact, choosing one or the other will often have a significant impact on the story. But what is most unique about this mechanic is that choosing to let a character live or die is not just a choice of brute force or choosing to cast a sleeping spell. Instead, every new enemy displays unique possible player interactions under the “Act” tab. Some of these new actions will help or hinder a player’s ability to appease and beat the foe, but it is up to them to decipher what the encountered enemy wants or needs, which will eventually fill the Mercy bar to 100%, sparing them.
+
+One example that comes to mind when it comes to unusual enemy encounters are the Swatchlings in Chapter 2 of Deltarune. During each Swatchling encounter, each enemy will appear as either blue or red. Under the player character’s tab, the option of “warmify” or “coldify” will be displayed. A player will need to figure out that in order to quickly fill the Swatchling’s mercy bar, each of them will need to display the same color. Therefore, if there are two swatchlings, for instance, and one is blue and the other red, a player has the choice of “warmifying” the blue one, which will turn it yellow, then red on each turn, or “coldifying” the red one, which will eventually turn it blue. Once all the enemies are the same color, their mercy bars will fill to 100% and they can be spared. If there are more than two Swatchlings, a player will need to judge whether to turn them all red or blue, depending on the starting status of each. 
+
+There is no direct explanation for a player to follow in order to do this, and the enemies can indeed be defeated in less efficient ways, but faster and leads to more player satisfaction, having figured out this particular enemy’s quirk.
 
 ![](media/swatchlings.png)
-![](media/shuttah01.png)
-![](media/shuttah02.png)
+
+## Breaking of the Mould Within a Boss Fight
+
+Deltarune’s bossfights take on the same format as regular enemy encounters. Meaning, players still have the same choices of fighting or using different “act” choices in order to appease and spare the enemy. However, with bossfights being longer than average enemy encounters, players will learn the enemy’s quirks at the beginning.
+
+This seems like it would be a problem; if a player learns the enemy’s quirks and which best “actions” to use at the beginning of a long boss fight, wouldn’t the second half of the encounter become repetitive and therefore, boring or tedious?
+
+Thankfully, Toby Fox is not afraid to break the mold of his own game. While bossfights initially take on the same format as regular battles, they often break into what can only be described as “minigames,” which see the player’s party uprooted from the usual battle UI. While players can still take and receive damage,  they are nonetheless dropped into a new set of mechanics. The most striking version of this in-game experience can be found at the end of Chapter 3, when the player faces the final boss Mr.Tenna.
+
+![](media/tenna_bullet.png)
+The initial stage of Chapter 3’s final boss.
+
+Toby Fox uses the characteristics of the boss’s story-based role to inspire the bossfight. In this case, Fox uses the inspiration of Tenna as a TV show host to launch the player into a series of actual mini-game style challenges on top of regular enemy attacks, which increase in speed and difficulty as the fight progresses. Below is an example of one of these sequences, where the player is tasked with shooting the boss as he appears in the saloon windows, dealing actual damage to his health bar.
+
 ![](media/boss_shoot.gif)
+
+However, what makes Chapter 3’s final boss stand out to me the most is how the subversion of a player’s expectations goes even deeper than just the introduction of these new challenges. As the boss fight becomes even more fast paced during the final stages of the event, Fox quickly turns these new mechanics on their head once more, presenting a familiar layout, which a player only has a second to figure out has been changed.
+
 ![](media/boss_dodge.gif)
+
+In the example above, the player is represented with the same cowboy shooter game as before, but this time has to dodge the boss’s bullets in order to not take damage, instead of dealing the damage themselves. This is similar enough to the first version so that the player can prepare themselves and strategize, while still remaining exciting. Not only does it add to a player’s experience by breaking up what would otherwise be repetitive, but it also lends to the game’s immersion and worldbuilding.
+
+##Takeaways
+
+Toby Fox plays with the expectations of a player through the subversion of tropes, presenting an interface and mechanics system that seems familiar, only to constantly ask the player to engage in these battles in more ways than regular strategizing. Instead, a player meaningfully interacts with the unique characteristics of each character or creature within the world of Deltarune. Not only is each enemy encounter rendered more exciting, but it directly lends to a player’s understanding of the world itself. Although I am not someone who dislikes fighting based games, I have found myself becoming bored with repetitive battles in the past, and have asked myself how I could improve on the ever-popular turn based fighting system. With humour and an unapologetic appreciation for the unexpected, Deltarune seems to answer that question.
+
+Note: Due to the fact that I have already passed these phases within the game,credits to the following footage which was pulled from these YouTube creators:
+
+Swatchlings: PrismaticAngel https://www.youtube.com/watch?v=yYApmJYQzJM&t=1003s
+
+Mr.Tenna: XSL https://www.youtube.com/watch?v=Yz84jcMGILU&t=688s
+
