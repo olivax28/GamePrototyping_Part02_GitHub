@@ -172,7 +172,7 @@ As much as I liked these two ideas, I find the first one to be still relatively 
 
 ## Design Values and Constraints
 
-I think that I will continue to move forward with the idea that I've been developing since the beginning of the journal. However, I am wondering whether it may be more interesting if, instea dof recieving an item and working on its physical repairs, it may be more interesting for the player to have to fix software-related repairs instead, sending the player to explore the files hidden within the machine. 
+I think that I will continue to move forward with the idea that I've been developing since the beginning of the journal. However, I am wondering whether it may be more interesting if, instead of recieving an item and working on its physical repairs, it may be more interesting for the player to have to fix software-related repairs instead, sending the player to explore the files hidden within the machine. 
 
 Design values:
 - Atmosphere, Storytelling
@@ -245,7 +245,7 @@ Thankfully, Toby Fox is not afraid to break the mould of his own game. While bos
 ![](media/tenna_bullet.png)
 The initial stage of Chapter 3’s final boss, a player must avoid the stars in a "bullet hell" style attack.
 
-Toby Fox uses the characteristics of the boss’s story-based role to inspire the bossfight. In this case, Fox uses the inspiration of Tenna as a TV show host to launch the player into a series of actual mini-game style challenges on top of regular enemy attacks, which increase in speed and difficulty as the fight progresses. Below is an example of one of these sequences, where the player is tasked with shooting the boss as he appears in the saloon windows, dealing actual damage to his health bar.
+Toby Fox uses the characteristics of the boss’s story-based role to inspire the bossfight. In this case, Fox uses the inspiration of Tenna as a TV show host to launch the player into a series of mini-game style challenges on top of regular enemy attacks, which increase in speed and difficulty as the fight progresses. Below is an example of one of these sequences, where the player is tasked with shooting the boss as he appears in the saloon windows, dealing actual damage to his health bar.
 
 ![](media/boss_shoot.gif)
 
@@ -267,14 +267,67 @@ Mr.Tenna: XSL https://www.youtube.com/watch?v=Yz84jcMGILU&t=688s
 
 ## Journal 07 | Due 2026-03-12
 
+## Starting with Concepts
 
+For the final game prototype, I've finally decided to work in a team of two, with Julia, which I think will be all the better for both of us workload wise, but also for the final outcome of the game.
+
+Julia and I discussed the game, touching the topics of overall concept, aesthetics and mechanics. From this conversation we decided;
+
+- The game will have a more of a cozy atmosphere, with the horror elements veering more into mysterious and creepy, rather than 'full on' horror. 
+- We decided that the idea of exploring the files within a computer particularly intriguing, allowing for more experimentation with gameplay than a more traditional 3D style game. The idea that the character would recieve a computer to fix at the beginning of the game, prompting them to explore the file system, would be the bulk of the experience. It is also a clever way with adding more content without overloading the project.
+- We liked the appeal of making the game in a more "retro" inspired style, such as the low-poly models in early PlayStation games which would be optimal for performance, be quick to create and fit well into the overall themes of the game.
+
+Below are some sketches done by Julia which represent a more solidified visual style than the previous very quick sketches I've drawn. This represents the player's point of view at the beginning of the game, interacting with the customer behind the desk. 
 ![](media/jconcept01.png)
 ![](media/jconcept02.png)
+
+What I like particularly about this is how we can begin to imagine what the overall feel of the game will be, just by these two images. The lighting is dreamy and bright, the characters cute and simple, and the overall decor reminiscent of past decades of computing. We can begin to even imagine set dressing elements, such as posters, a cash register, etc.
+
+Following this, to solidify the style of the game, Julia also went ahead and created a 3D sculpt of the same customer character, in line with the low-poly style we discussed before.
 ![](media/jscupt01.png)
 ![](media/jsculpt02.png)
+
+Although it was noted that he should be wearing a suit, as he is in the concepts, we both really liked how this simple model turned out. He should be easy to animate and texture, while fitting into the game world. As well, this model can easily modified into future characters if need be.
+
+Meanwhile, I turned to creating sketch concepts of the newly decided Desktop UI portion of the game. I wanted to go for something reminiscent of windows 95, but I also wanted to still allow for creativity, while feeling era accurate.
+
+The following sketches show:
+- the player's initial view of the desktop
+- The view of the "my Computer" folder, activated when clicking on it, which displays a password prompt
+- a full-screen document which is opened upon entering the correct password, which may display newspaper scans and other such documents, relating to the story (which still needs to be fleshed out!)
+- A potential way of keeping track of tasks a player needs to do within the computer system. In the form of a "Read Me" file, the tasks will be listed and checked off as the player finishes them.
+
 ![](media/menuskect01.PNG)
 ![](media/menuskect03.PNG)
 ![](media/menuskect02.PNG)
 ![](media/menuskect04.PNG)
+
+Having a task list will be able to guide a player through the story and naturally guide them to explore the computer and its files, while allowing for a sense of accomplishment, as one should feel when completing in-game tasks, while also being integrated into the game seamlessly. Meanwhile, obstacles like the password will send a player to either; explore the computer files more or send them searching around the shop as a 3D space, allowing for a mix of 2D and 3D exploration.
+
+## Beginning application in-engine
+
+To begin the application of the Desktop Menu portion I did some research on how to create a UI in unity, and created a simple interactable 'Desktop' UI which, with OnClick() functions, disabled and enables the windows associated with each Desktop icon. So far, the system is quite simplified, but allows for further development quite easily. In the following GIF, you can also see how a player can easily go from the 3D game mode to the Desktop UI by interacting with the computer (pressing E while facing it).
+
 ![](media/menu_interacting.gif)
+
+It is worth mentioning that the previous interaction system that I built a few weeks ago to create the speech bubble actually came in handy, and I was able to use it to easily expand on what a player can interact with, and what happens once they do. Below is an image of the code handling this: 
 ![](media/PCInteract.png)
+
+Knowing that this works is very encouraging, because we both can continue to use this system to build more kinds of player interactions.
+
+## Setting goals
+
+For next week, Julia and I have decided 
+
+- figure out how to create a task system
+- continue to develop the visuals and make more 3D models
+- (Maybe) Expand the player interaction system to include an object which will help complete a task
+
+We also need to begin thinking more deeply about the story, as this will be the one of the main driving forces of the game experience.
+
+Here are the resources I consulted in order to build the UI:
+
+https://www.youtube.com/watch?v=RsgiYqLID-U
+https://www.youtube.com/watch?v=Unnd0cOSiLU&t=37s
+
+
