@@ -5,7 +5,7 @@ public class PlayerInteract : MonoBehaviour
    
 private void Update(){
         if (Input.GetKeyDown(KeyCode.E)){
-            float interactRange = 2f;
+            float interactRange = 1.5f;
             Collider[] colliderArray = Physics.OverlapSphere(transform.position, interactRange);
             foreach(Collider collider in colliderArray)
             {
