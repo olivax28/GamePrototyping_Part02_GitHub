@@ -13,6 +13,10 @@ private void Update(){
                 {
                     npcInteractable.Interact();
                 }
+                  if (collider.TryGetComponent(out MainPC pcInteractable))
+                {
+                    pcInteractable.toMenu();
+                }
             }
         }
         
