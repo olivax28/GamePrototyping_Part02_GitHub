@@ -310,6 +310,9 @@ To begin the application of the Desktop Menu portion I did some research on how 
 
 ![](media/menu_interacting.gif)
 
+One thing that I think would be nice to add would be the ability for a player to move the windows around. Not only is it as expected behavior of a Desktop UI, but it may be useful for players to be able to see multiple windows at once, especially when inputting a password, for example.
+
+
 It is worth mentioning that the previous interaction system that I built a few weeks ago to create the speech bubble actually came in handy, and I was able to use it to easily expand on what a player can interact with, and what happens once they do. Below is an image of the code handling this: 
 ![](media/PCInteract.png)
 
