@@ -265,3 +265,16 @@ Swatchlings: PrismaticAngel https://www.youtube.com/watch?v=yYApmJYQzJM&t=1003s
 
 Mr.Tenna: XSL https://www.youtube.com/watch?v=Yz84jcMGILU&t=688s
 
+## Journal 07 | Due 2026-03-12
+
+
+![](media/jconcept01.png)
+![](media/jconcept02.png)
+![](media/jscupt01.png)
+![](media/jsculpt02.png)
+![](media/menuskect01.PNG)
+![](media/menuskect03.PNG)
+![](media/menuskect02.PNG)
+![](media/menuskect04.PNG)
+![](media/menu_interacting.gif)
+![](media/PCInteract.png)
