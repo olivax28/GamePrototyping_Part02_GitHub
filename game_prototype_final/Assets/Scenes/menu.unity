@@ -474,7 +474,7 @@ GameObject:
   - component: {fileID: 359149468}
   - component: {fileID: 359149467}
   m_Layer: 5
-  m_Name: Recycke Bin Window
+  m_Name: Recycle Bin Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -892,6 +892,7 @@ GameObject:
   - component: {fileID: 692198251}
   - component: {fileID: 692198253}
   - component: {fileID: 692198252}
+  - component: {fileID: 692198254}
   m_Layer: 5
   m_Name: bluebar
   m_TagString: Untagged
@@ -957,6 +958,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 692198250}
   m_CullTransparentMesh: 1
+--- !u!114 &692198254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692198250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7255f981be4d7446f91d030bbbcfab0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DragWindow
+  dragRectTransform: {fileID: 359149466}
 --- !u!1 &870283349
 GameObject:
   m_ObjectHideFlags: 0
@@ -1762,6 +1776,7 @@ GameObject:
   - component: {fileID: 1216465707}
   - component: {fileID: 1216465709}
   - component: {fileID: 1216465708}
+  - component: {fileID: 1216465710}
   m_Layer: 5
   m_Name: readme_bluebar
   m_TagString: Untagged
@@ -1827,6 +1842,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1216465706}
   m_CullTransparentMesh: 1
+--- !u!114 &1216465710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216465706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7255f981be4d7446f91d030bbbcfab0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DragWindow
+  dragRectTransform: {fileID: 325219159}
 --- !u!1 &1233666553
 GameObject:
   m_ObjectHideFlags: 0
@@ -2322,6 +2350,7 @@ GameObject:
   - component: {fileID: 1553194939}
   - component: {fileID: 1553194941}
   - component: {fileID: 1553194940}
+  - component: {fileID: 1553194942}
   m_Layer: 5
   m_Name: bluebar
   m_TagString: Untagged
@@ -2387,6 +2416,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1553194938}
   m_CullTransparentMesh: 1
+--- !u!114 &1553194942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553194938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7255f981be4d7446f91d030bbbcfab0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DragWindow
+  dragRectTransform: {fileID: 960973745}
 --- !u!1 &1669072861
 GameObject:
   m_ObjectHideFlags: 0
