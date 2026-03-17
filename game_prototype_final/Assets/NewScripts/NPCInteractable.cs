@@ -4,6 +4,6 @@ public class NPCInteractable : MonoBehaviour
 {
     public void Interact()
     {
-        ChatBubble.Create(transform.transform, new Vector3(1f,0.5f,0f), "here is a test!");
+        ChatBubble.Create(transform.transform, new Vector3(-1f,3f,0f), "here is a test!");
     }
 }
