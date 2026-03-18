@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 66
-    y: 198
+    x: 0
+    y: 73
     width: 1512
     height: 850
   m_ShowMode: 4
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 79
+  controlID: 90
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 112}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 80
+  controlID: 91
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 81
+  controlID: 92
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -303,8 +303,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "UnityEditor.MainToolbarWindow\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 66
-    y: 198
+    x: 0
+    y: 73
     width: 1512
     height: 36
   m_SerializedDataModeController:
@@ -531,10 +531,10 @@ MonoBehaviour:
       displayed: 1
       id: Play Mode Controls
       index: 0
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":572.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 572, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       layout: 4
@@ -569,8 +569,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 330
-    y: 234
+    x: 264
+    y: 109
     width: 854
     height: 547
   m_SerializedDataModeController:
@@ -1115,7 +1115,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 3.860195, y: -0.2529041, z: 1.7943481}
+    m_Target: {x: 0.09646833, y: -0.15568188, z: 4.0252905}
     speed: 2
     m_Value: {x: 3.860195, y: -0.2529041, z: 1.7943481}
   m_RenderMode: 0
@@ -1163,13 +1163,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.186345, y: -0.24808754, z: 0.048692912, w: -0.94941384}
+    m_Target: {x: -0.14244026, y: 0.19520195, z: -0.028662724, w: -0.9699504}
     speed: 2
-    m_Value: {x: -0.18634224, y: -0.24808387, z: 0.048692193, w: -0.9493998}
+    m_Value: {x: -0.18634498, y: -0.24808753, z: 0.04869291, w: -0.94941384}
   m_Size:
-    m_Target: 2.4453757
+    m_Target: 6.276213
     speed: 2
-    m_Value: 2.4175677
+    m_Value: 6.755272
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1224,8 +1224,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Hierarchy\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 66
-    y: 234
+    x: 0
+    y: 109
     width: 263
     height: 547
   m_SerializedDataModeController:
@@ -1245,13 +1245,13 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 2}
       m_SelectedIDs:
-      - m_Data: -2016
+      - m_Data: 47066
       m_LastClickedID:
-        m_Data: -2016
+        m_Data: 47066
       m_ExpandedIDs:
-      - m_Data: -1666
-      - m_Data: 47084
-      - m_Data: 47104
+      - m_Data: -1308
+      - m_Data: 46994
+      - m_Data: 47014
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2643,8 +2643,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 66
-    y: 807
+    x: 0
+    y: 682
     width: 1119
     height: 195
   m_SerializedDataModeController:
@@ -2683,20 +2683,21 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: /Users/julia/Documents/Concordia/Winter2026/Cart315/GamePrototyping_Part02_GitHub/game_prototype_final
+  m_LastProjectPath: /Users/olivia28/Documents/GamePrototyping_Part02_GitHub/game_prototype_final
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 47948
+    - m_Data: 47864
     m_LastClickedID:
-      m_Data: 47948
+      m_Data: 47864
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 47948
-    - m_Data: 1000000000
+    - m_Data: 47864
+    - m_Data: 47866
+    - m_Data: 47868
     - m_Data: 2147483647
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -2730,7 +2731,9 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 47948
+    - m_Data: 47864
+    - m_Data: 47866
+    - m_Data: 47868
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2758,8 +2761,8 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: -2016
-    m_LastClickedInstanceID: -2016
+    - m_Data: 47066
+    m_LastClickedInstanceID: 47066
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs:
     - m_Data: 63032
@@ -2853,8 +2856,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1186
-    y: 234
+    x: 1120
+    y: 109
     width: 391
     height: 768
   m_SerializedDataModeController:

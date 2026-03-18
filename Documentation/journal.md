@@ -344,14 +344,72 @@ https://www.youtube.com/watch?v=Unnd0cOSiLU&t=37s
 - develop story - in progress
 
 Tasks Done:
-- New player modek
+- New player model
 - New computer model
 - Set up potential lighting situation
 - Made window draggable in the Desktop application
 - Brainstormed potential story flows
 - Researched quest/task system (Julia)
 
+## Done this week
+
+This week, I decided to take on the more visual tasks as a break from coding. To begin, I wanted to continue making 3D models for the game, developing the visual style. To begin, I made a 3D model for the player character because I found that seeing the placeholder cylinder's cast shadow was distracting. As well, I figured that it would be a good idea to have a player model in case any future materials required a reflective serface. Plus, basing myself off of Julia's model helped establish the workflow for the game's style.
+
+Below is the model in Blender
+![](media/player_blender.png)
+Below are images of the player model in-engine.
 ![](media/player02.png)
 ![](media/player03.png)
+ Overall, I like the style of the character, the only thing that I am unsure about is how harsh the planes on the face look in the game lighting. However, I am sure that I can fix this in-engine with a smoothing effect on the normals.
+
+ I also made a new 3D model for the computer asset in-line with the nostalgic feel we are going for
+ ![](media/computer_blender.png)
+
+ These models were easier to make than I expected them to be, and I completed them fairly quickly, which is very encouraging. This means that our visual style will be sustainable to create in the time we have left for this project. That being said, we expect to still have to use some downloaded assets for the environment, but I look forward to developing the world of the game.
+
+ Speaking of developing the world, I also decided to begin experimenting with lighting. I used Unity's real-time lighting to create an atmosphere closer to that in the original sketches done by Julia. I aimed for an overhead office feel, but one which is more atmospheric than what one might find usually, with dark blue tones and blueish shadows. 
+
 ![](media/new_lighting.png)
+ I find my new lighting scenario to be a large improvement to the original lighting, but I also think that it won't fully come to life without proper textures. As well, new textures will mean readjusting the lighting, so while I like this look for now, it's definitely something I'll need to revisit.
+
+Finally, I also revisited the idea of the moveable windows for the computer desktop section of the game. I find it a lot more intuitive now, because a user's expectation is to have moveable windows in any Computer Operating System type software. 
 ![](media/movingWindows.gif)
+
+here is the tutorial I used: https://www.youtube.com/watch?v=Mb2oua3FjZg&t=272s
+
+However, I did notice that the selected window does not automatically appear at the top of the stack. If the game relies on a player comparing clues and documents, then this needs to be fixed.
+
+Finally, Julia also began research into adding a game task system, which will be essential for the game's core functionality.
+
+## Left to do
+
+Here is a general list of everything left to do for the game:
+Important:
+- implement a quest/ task system
+- refine visuals
+    - create more 3D models for the background
+    - create textures for existing models
+    - refine lighting
+    - create 2D sprites for the Desktop 
+- Allow for overlap of selected window in the Desktop
+- Continue refining the story + creating content
+- add barriers (needed passwords) for the Desktop exploration (will go back to the task system)
+
+Less Important:
+- add animations
+- look into cutscenes
+- add music and sound effects
+- have a start screen
+
+For next week:
+
+- Finish task system or get a part of it working in-game
+- Fix window overlap, look into scrollable windows and passwords
+- Continue 3D models
+  - Make some background models for the set (computers, tech)
+  - make at least one character texture
+- Make a story plan/map
+
+Generally, I'd really like to see the task system in place so that we can actually have a functioning game, from there we can build on the story in-engine and start filling the game with actual content, which will be very fulfilling.
+
+Note: I realized I did not discuss the potential story flows brainstormed this week. As this journal is already quite long, I'll upload it once Julia and I actually make the story flow map.
