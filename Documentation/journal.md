@@ -334,3 +334,24 @@ https://www.youtube.com/watch?v=RsgiYqLID-U
 https://www.youtube.com/watch?v=Unnd0cOSiLU&t=37s
 
 
+## Journal 07 | Due 2026-03-19
+
+## Review of Goals
+
+- Research a task system - in progress
+- Continue developing visual style - done/ in progress
+- expand player interaction system - not met
+- develop story - in progress
+
+Tasks Done:
+- New player modek
+- New computer model
+- Set up potential lighting situation
+- Made window draggable in the Desktop application
+- Brainstormed potential story flows
+- Researched quest/task system (Julia)
+
+![](media/player02.png)
+![](media/player03.png)
+![](media/new_lighting.png)
+![](media/movingWindows.gif)
