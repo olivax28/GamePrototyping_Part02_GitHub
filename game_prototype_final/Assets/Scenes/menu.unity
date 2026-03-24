@@ -971,6 +971,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragWindow
   dragRectTransform: {fileID: 359149466}
+  canvas: {fileID: 1042737318}
 --- !u!1 &870283349
 GameObject:
   m_ObjectHideFlags: 0
@@ -998,7 +999,7 @@ RectTransform:
   m_GameObject: {fileID: 870283349}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.81639314, y: 1, z: 1}
+  m_LocalScale: {x: 0.86766267, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2048889807}
@@ -1856,6 +1857,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragWindow
   dragRectTransform: {fileID: 325219159}
+  canvas: {fileID: 1042737318}
 --- !u!1 &1233666553
 GameObject:
   m_ObjectHideFlags: 0
@@ -2353,6 +2355,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DragWindow
   dragRectTransform: {fileID: 960973745}
+  canvas: {fileID: 1042737318}
 --- !u!1 &1669072861
 GameObject:
   m_ObjectHideFlags: 0
