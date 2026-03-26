@@ -421,8 +421,8 @@ Note: I realized I did not discuss the potential story flows brainstormed this w
 
 So far this week, these are the tasks which were done:
 - MAJOR: Finalized the interaction system
-- created more 3D modelsfor the set
-- Began brianstorming the story map
+- created more 3D models for the set
+- Began brainstorming the story map
 - created a scrollable window for the Desktop UI
 
 What I am most happy to have completed is interaction system. Not only was I able to build it in a way which can easily be added on to in the future, but it now also includes a UI element with it which indicates when an interaction is within range, and which interaction will be triggered once E is pressed. A an example is shown below:
@@ -454,7 +454,7 @@ However, as it can be seen here, we only got about halfway through the story flo
 
 There is one major thing which has not been done yet, and that is the task/quest system being created by Julia. While she has been doing a lot of research, it is becoming increasingly obvious that this system will be complex to code. That being said, we may need to rethink the way that we want to create the system, and hopefully get some answers on creating a simpler task system from our game-making friends more familiar with Unity. As well, while it has been Julia's task to create the system, I think it is only fair that we both take on the task and hopefully are able to complete it collaboratively, especially if it does remain as daunting of a task.
 
-Finally, here are the remaining tasks to do for the game entierly:
+Finally, here are the remaining tasks to do for the game entirely:
 
  Important:
 - implement a quest/ task system
