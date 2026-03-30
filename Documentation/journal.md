@@ -413,3 +413,66 @@ For next week:
 Generally, I'd really like to see the task system in place so that we can actually have a functioning game, from there we can build on the story in-engine and start filling the game with actual content, which will be very fulfilling.
 
 Note: I realized I did not discuss the potential story flows brainstormed this week. As this journal is already quite long, I'll upload it once Julia and I actually make the story flow map.
+
+
+## Journal 08 | Due 2026-03-26
+
+## Progress
+
+So far this week, these are the tasks which were done:
+- MAJOR: Finalized the interaction system
+- created more 3D models for the set
+- Began brainstorming the story map
+- created a scrollable window for the Desktop UI
+
+What I am most happy to have completed is interaction system. Not only was I able to build it in a way which can easily be added on to in the future, but it now also includes a UI element with it which indicates when an interaction is within range, and which interaction will be triggered once E is pressed. A an example is shown below:
+
+ ![](media/InteractionSystemE.gif)
+
+It makes the game feel more polished, but also proved much-needed visual feedback for the player, while also making troubleshooting much easier during testing, simply due to the fact that we now know exactly what the interaction should do.
+
+This system was built as it was in this video https://www.youtube.com/watch?v=LdoImzaY6M4 by CodeMonkey on YouTube. 
+
+This was my introduction to using Interfaces in coding as well, which is a very interesting way of working due to how it simplifies the code, and is able to control multiple things at once (in this case, interactions) with one script.
+
+Next, I also continued to develop the visuals for the game. I decided that ut would be nice to have other pieces of technology lying around the set in order for it to feel more like a cluttered workspace, given that the location is that of a tech-repair shop. The following is an example of a TV modelled in Blender.
+  ![](media/TV_model.png)
+The models I made include a TV, a TV featuring antennas and a model of a 90s-inspired computer tower (complete with a floppy disk drive). Here are what those models look like in-game;
+  ![](media/in_gameprop.png)
+I actually really like the way that the base models are looking in game without extra textures. I am wondering if it is even necessary (especially due to growing time constraints) to texture all of them. I don't think that it would significantly improve player experience, given that the models look nice with the base textures. However, I may look into making (or at least downloading) some textures for the walls and floors, due to their lack of geometry causing them to look boring.
+
+As well, somewhere between visual and functional, I decided to do research on how to make a scrollable window for the 2D Desktop portion of the game, as I knew that we would need to use such a thing in multiple instances during this part of the game. The example shown below would be used as a docuent displaying text information, but the technique I used could also display any UI item;
+   ![](media/scrollWindowgif.gif)
+
+The only problem with this way of creating a scrollable window is that the code used to move the windows does not work, nor does it allow for the selected scrollable window to appear on top of the others. Although it would be ideal for this window to have the same behavior as the others, I think that if we run out of time and cannot find a better way of implementing a scrollable window with the same behaviors as the others we could simply indicate different behavior through visual queues to the player, like making the blue bar on top greyed out, indicating a non-moveable window.
+
+Finally, Julia and I started brainstorming for the actual story flow of the 2D Desktrop portion of the game. Due to the fact that it is a mystery-based game, we knew that this would be high priority for the game's production.
+  ![](media/storyMap01.jpg)
+However, as it can be seen here, we only got about halfway through the story flow, up until a player completes both original "normal" tasks for the computer, and more "strange" tasks are added mysteriously to the READ ME file. What we were stuck on was what sort of password or key would be needed to unlock the locked file folder however...as I'm writing this, I actually got the idea that the key item could very well be a floppy disk drive, which would make sense given the context!
+
+## Moving forward
+
+There is one major thing which has not been done yet, and that is the task/quest system being created by Julia. While she has been doing a lot of research, it is becoming increasingly obvious that this system will be complex to code. That being said, we may need to rethink the way that we want to create the system, and hopefully get some answers on creating a simpler task system from our game-making friends more familiar with Unity. As well, while it has been Julia's task to create the system, I think it is only fair that we both take on the task and hopefully are able to complete it collaboratively, especially if it does remain as daunting of a task.
+
+Finally, here are the remaining tasks to do for the game entirely:
+
+ Important:
+- implement a quest/ task system
+- refine visuals
+    - create more 3D models for the background
+    - refine lighting
+    - create 2D sprites for the Desktop 
+- Continue refining the story + creating content
+- add barriers (needed passwords) for the Desktop exploration (will go back to the task system)
+
+Less Important:
+- add animations
+- look into cutscenes
+- add music and sound effects
+- have a start screen
+
+For next week my focus will be:
+- work on the task system with Julia
+- Finish the story flow map
+- Start creating visuals for the Desktop
+- And whatever else I can make time for!
