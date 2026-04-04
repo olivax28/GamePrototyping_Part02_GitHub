@@ -476,3 +476,28 @@ For next week my focus will be:
 - Finish the story flow map
 - Start creating visuals for the Desktop
 - And whatever else I can make time for!
+
+
+## Journal 09 | Due 2026-04-02
+
+## Progress so far
+
+Summary of thigns done:
+- implemented quest system 
+- overhauled dialogue system
+- created visual "icon" elements for the computer OS UI
+- Decided on a story progression, drew a story map for it
+- brainstormed a simple text to be used at the final "act" of the game
+
+The major thing that was completed this week was that we finally managed to set not just a basic quest system, but we also managed to overhaul the character dialogue framework, allowing for branching dialogue paths which in turn allowed for our NPC "Fred" to be a quest giver. 
+
+![](media/questgiver.gif)
+
+As can be seen in the above GIF, the interaction with the NPC allows for the task to appear in the READ ME file on the computer UI. I am very glad that we finally got this working, because it means that we can move forward into quest progression, which will be the main chunk of the game's actual function. 
+
+Furthermore, I also did some visual work for the in-game computer OS, drawing some icons in order to replace the blank placeholders used during production
+![](media/iconsCompilation.png)
+Above is a compilation of the 5 drawn icons, which have yet to be added into the UI system, as we're waiting until we've finished the code before focusing on visual
+![](media/storyMap02.PNG)
+![](media/game_scriptBrainstorm.png)
+
