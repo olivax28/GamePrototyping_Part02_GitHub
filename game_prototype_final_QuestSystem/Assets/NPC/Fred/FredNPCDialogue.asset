@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
   npcName: Fred
   dialogueLines:
-  - Hey, uh, my shit's busted.
+  - Hey, uh, my computer's busted.
   - Can ya fix it?
-  - YASS!
-  - THIS TIME IM REALLY GONNA DO IT!!!
-  - Please help1!!
+  - Yay!
+  - Ugh...
+  - Please help!
   - Quest is done!!!
   typingSpeed: 0.05
   autoProgressLines: 000000000001
@@ -30,7 +30,7 @@ MonoBehaviour:
   - dialogueIndex: 1
     choices:
     - Huh..? Sure...
-    - GET TF OUTEEEEE!
+    - Nah, too busy.
     nextDialogueIndexes: 0200000003000000
     givesQuest: 0100
   questInProgressIndex: 4
