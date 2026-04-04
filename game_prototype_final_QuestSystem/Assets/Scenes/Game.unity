@@ -1388,7 +1388,7 @@ PrefabInstance:
     - target: {fileID: 2882437786107175637, guid: 900432286b70dd3448b0884c911e1f6d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 6daf649d39e534a789dce129a53e1e39, type: 2}
+      objectReference: {fileID: 2100000, guid: a73ff08600cb4462c837f92fbb607a6f, type: 2}
     - target: {fileID: 2882437786107175637, guid: 900432286b70dd3448b0884c911e1f6d, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
@@ -4771,11 +4771,11 @@ Transform:
   m_GameObject: {fileID: 894403505}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -833.5, y: -521, z: 0}
+  m_LocalPosition: {x: -399.99997, y: -253.34164, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1505189151}
+  m_Father: {fileID: 2115357612}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &907330723
 GameObject:
@@ -8632,7 +8632,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
+  m_ScaleFactor: 0.37
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
@@ -8681,7 +8681,6 @@ RectTransform:
   - {fileID: 1194527208}
   - {fileID: 162137743}
   - {fileID: 1620417975}
-  - {fileID: 894403507}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -9296,7 +9295,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2.5, y: -7.649994}
+  m_AnchoredPosition: {x: 2.5, y: -7.6500244}
   m_SizeDelta: {x: -85.00006, y: -95.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1565614289
@@ -9768,7 +9767,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -41.799988, y: -97.990036}
+  m_AnchoredPosition: {x: -41.80011, y: -97.99005}
   m_SizeDelta: {x: -439.80002, y: -579.0199}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1620417976
@@ -11328,6 +11327,7 @@ RectTransform:
   m_Children:
   - {fileID: 1746982666}
   - {fileID: 1807380044}
+  - {fileID: 894403507}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -11346,7 +11346,7 @@ PrefabInstance:
     - target: {fileID: 2882437786107175637, guid: 900432286b70dd3448b0884c911e1f6d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 6daf649d39e534a789dce129a53e1e39, type: 2}
+      objectReference: {fileID: 2100000, guid: a73ff08600cb4462c837f92fbb607a6f, type: 2}
     - target: {fileID: 2882437786107175637, guid: 900432286b70dd3448b0884c911e1f6d, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
