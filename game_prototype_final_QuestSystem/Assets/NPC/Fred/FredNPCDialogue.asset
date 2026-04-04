@@ -16,8 +16,17 @@ MonoBehaviour:
   dialogueLines:
   - Hey, uh, my shit's busted.
   - Can ya fix it?
-  - You better, I got a bomb.
+  - YASS!
+  - THIS TIME IM REALLY GONNA DO IT!!!
   typingSpeed: 0.05
-  autoProgressLines: 010000
+  autoProgressLines: 00000000
+  endDialogueLines: 00000101
   autoProgressDelay: 1.5
   voiceSound: {fileID: 8300000, guid: 3ebf62694dbb448718f8f52d31d77345, type: 3}
+  npcPortrait: {fileID: 0}
+  choices:
+  - dialogueIndex: 1
+    choices:
+    - Huh..? Sure...
+    - GET TF OUTEEEEE!
+    nextDialogueIndexes: 0200000003000000
