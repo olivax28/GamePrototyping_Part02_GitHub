@@ -14,7 +14,7 @@ public class QuestController : MonoBehaviour
     if(Instance == null) Instance = this;
     else Destroy(gameObject);
 
-    questUI = Object.FindFirstObjectByType<QuestUI>();
+    questUI = Object.FindAnyObjectByType<QuestUI>();
 
    }
 

@@ -18,9 +18,11 @@ MonoBehaviour:
   - Can ya fix it?
   - YASS!
   - THIS TIME IM REALLY GONNA DO IT!!!
+  - Please help1!!
+  - Quest is done!!!
   typingSpeed: 0.05
-  autoProgressLines: 00000000
-  endDialogueLines: 00000101
+  autoProgressLines: 000000000001
+  endDialogueLines: 000001010101
   autoProgressDelay: 1.5
   voiceSound: {fileID: 8300000, guid: 3ebf62694dbb448718f8f52d31d77345, type: 3}
   npcPortrait: {fileID: 0}
@@ -30,3 +32,7 @@ MonoBehaviour:
     - Huh..? Sure...
     - GET TF OUTEEEEE!
     nextDialogueIndexes: 0200000003000000
+    givesQuest: 0100
+  questInProgressIndex: 4
+  questCompletedIndex: 5
+  quest: {fileID: 11400000, guid: bbdf95ec190f84b2c94fdcd84bbe9f94, type: 2}
