@@ -482,7 +482,7 @@ For next week my focus will be:
 
 ## Progress so far
 
-Summary of thigns done:
+Summary of things done:
 - implemented quest system 
 - overhauled dialogue system
 - created visual "icon" elements for the computer OS UI
@@ -497,7 +497,28 @@ As can be seen in the above GIF, the interaction with the NPC allows for the tas
 
 Furthermore, I also did some visual work for the in-game computer OS, drawing some icons in order to replace the blank placeholders used during production
 ![](media/iconsCompilation.png)
-Above is a compilation of the 5 drawn icons, which have yet to be added into the UI system, as we're waiting until we've finished the code before focusing on visual
+Above is a compilation of the 5 drawn icons, which have yet to be added into the UI system, as we're waiting until we've finished the code before focusing on visual aspects, but they're drawn and ready to be used once the time comes!
+
+As well, we finally decided on the continuation for the story map! It's about time... but now we know exactly what pages we'll need to make available in the computer OS and what type of quests (or tasks) the player will need to complete via the quest system.
 ![](media/storyMap02.PNG)
+
+As well, I brainstormed possible lines for the NPC, while also thinking of what kind of message should be displayed once the found floppy disk is inserted into the computer.
 ![](media/game_scriptBrainstorm.png)
+
+The main idea is that the NPC (Fred), in his search to download a productivity software, stumbled upon a promising one on the internet, which instead turned his computer sentient (and with a will to absorb human souls, it seems). Perhaps it can be interpreted as a critique of sacrificing learning and browth in the name of efficiency,very relevant during the era of AI efficiency software!
+
+## Moving forward
+
+Seeing as the final project is due next week, all the remaining tasks will have to be done. That said, it would be important to prioritize these tasks, and allow for some details to be dropped should we run out of time. 
+
+# Important tasks
+- finish quest progression (which includes an inventory system)
+- overhaul the structure of the OS UI so that it can support the needed quests
+- refine visuals to an acceptable level
+
+# Extra tasks
+- add a main menu with a play button
+- add a finalizing sequence (grassy plane)
+- refine visuals 
+- add music and sound effects
 
