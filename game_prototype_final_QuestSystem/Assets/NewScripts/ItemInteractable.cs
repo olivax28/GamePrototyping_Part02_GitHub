@@ -29,7 +29,7 @@ public Sprite itemThumbnail;
 
     private void TriggerPickup()
     {
-            // Item item = GetComponent<Item>();
+          
          bool itemAdded = inventoryController.AddItem(gameObject);
          if (itemAdded)
                 {
