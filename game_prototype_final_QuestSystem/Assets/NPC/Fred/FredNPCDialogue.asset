@@ -25,7 +25,7 @@ MonoBehaviour:
   endDialogueLines: 000001010101
   autoProgressDelay: 1.5
   voiceSound: {fileID: 8300000, guid: 3ebf62694dbb448718f8f52d31d77345, type: 3}
-  npcPortrait: {fileID: 0}
+  npcPortrait: {fileID: 21300000, guid: d543e8066b10e4018be8cfd12244c04c, type: 3}
   choices:
   - dialogueIndex: 1
     choices:
