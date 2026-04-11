@@ -522,3 +522,40 @@ Seeing as the final project is due next week, all the remaining tasks will have 
 - refine visuals 
 - add music and sound effects
 
+## Journal 10 | Due 2026-04-09
+
+## Overview
+
+This week, progress slowed a bit as Julia and I tried to figure out a way of picking up items and storing them to an inventory in order to complete the given quest by the NPC. 
+I decided to take on this task, but we soon both had to have it as our main focus, due tot he fact that the game's progress player-wise would not work unless quests could be completed, in this case, via item collection.
+
+However, we did discuss alternatives to this. Given that the story ENDS via the collection of the floppy disk, we could at least set up ther est of the game until the floppy disk must be collected. That way we could still do major progress on the game. As well, there are ways that we could "fake" an inventory collection. My idea is:
+
+-- Floppy disk gam object is hidden on interaction
+-- On interaction, a UI element of the floppy disk thumbnail is unhidden
+-- Once this is done, a boolean related tot he floppy disk collection is set to "true"
+-- Once this is done, an interaction is made available within the computer UI which allows the player to "insert" the floppy disk, making the windows with the planned message pop up!
+
+We already set up some other complex systems, so I'm pretty satisfied with the amount that I learnt already and I think it would be satisfying to have the game function as we want it to, even if it means sacrificing learning how to set up the inventory system.
+![](media/floppyCode.png)
+![](media/floppyInteract.gif)
+As can be seen in the gif and the photo, the floppy disk item is implemented in the itneraction system, but it cannot be collected. This is due to the inventory UI being 2D, while the object is 3D.
+## Tasks done Anyway...
+
+That being said, we still did some tasks this week despite the setbacks. For example, a UI was created for the inventory items.
+
+![](media/inventory.gif)
+
+Its creation is mroe complex than it seems, due to the fact that the slots are created modularly.
+
+![](media/inventoryController.png)
+
+As well, a simple "bobbing" animation was added to the Fred NPC, which was simple enough to do, but really made him feel more alive, rather than just another object in the office.
+
+![](media/NPCanim.gif)
+
+##Left to do
+
+At this point, we need to prioritize getting the game running. It would be nice to add in the UI sprites, and actually get functionality within the computer system. It would be fine to "fake" an inventory, as long as the story can be told.
+
+I'm happy with the progress we've made so far, and I think its pheasible to get basic functinality done by the end of the week. I don't even think that adding a start menu and other small visual things is out of the question as well. Hopefully we'll sort out the inventory problem and have a build on Thursday!
