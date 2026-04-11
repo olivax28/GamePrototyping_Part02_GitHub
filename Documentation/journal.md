@@ -527,9 +527,9 @@ Seeing as the final project is due next week, all the remaining tasks will have 
 ## Overview
 
 This week, progress slowed a bit as Julia and I tried to figure out a way of picking up items and storing them to an inventory in order to complete the given quest by the NPC. 
-I decided to take on this task, but we soon both had to have it as our main focus, due tot he fact that the game's progress player-wise would not work unless quests could be completed, in this case, via item collection.
+I decided to take on this task, but we soon both had to have it as our main focus. This was due to the fact that the game's progress player-wise would not work unless quests could be completed, in this case, via item collection.
 
-However, we did discuss alternatives to this. Given that the story ENDS via the collection of the floppy disk, we could at least set up ther est of the game until the floppy disk must be collected. That way we could still do major progress on the game. As well, there are ways that we could "fake" an inventory collection. My idea is:
+However, we did discuss alternatives to the propeer inventory system. Given that the story ENDS via the collection of the floppy disk, we could at least create  what's needed for the rest of the game until the floppy disk must be collected int he story. That way we could still do major progress. As well, there are ways that we could "fake" an inventory collection. My idea is:
 
 -- Floppy disk gam object is hidden on interaction
 -- On interaction, a UI element of the floppy disk thumbnail is unhidden
@@ -554,7 +554,7 @@ As well, a simple "bobbing" animation was added to the Fred NPC, which was simpl
 
 ![](media/NPCanim.gif)
 
-##Left to do
+## Left to do
 
 At this point, we need to prioritize getting the game running. It would be nice to add in the UI sprites, and actually get functionality within the computer system. It would be fine to "fake" an inventory, as long as the story can be told.
 
