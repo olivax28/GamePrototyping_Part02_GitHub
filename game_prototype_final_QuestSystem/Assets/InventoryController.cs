@@ -24,20 +24,20 @@ public class InventoryController : MonoBehaviour
 
     public bool AddItem(GameObject itemSprite)
     {
-        foreach(Transform slotTransform in inventoryPanel.transform)
-        {
-            Slot slot = slotTransform.GetComponent<Slot>();
-            if (slot != null && slot.currentItem == null)
-            {
-                // itemSprite = ItemInteractable.itemThumbnail;
-                GameObject newItem = Instantiate(itemSprite, slot.transform);
-                newItem.GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
-                slot.currentItem = newItem;
-                return true;
-            }
-        }
-        Debug.Log("inventory is full");
-        return false;
+        // foreach(Transform slotTransform in inventoryPanel.transform)
+        // {
+        //     Slot slot = slotTransform.GetComponent<Slot>();
+        //     if (slot != null && slot.currentItem == null)
+        //     {
+        //         // itemSprite = ItemInteractable.itemThumbnail;
+        //         GameObject newItem = Instantiate(itemSprite, slot.transform);
+        //         newItem.GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
+        //         slot.currentItem = newItem;
+        //         return true;
+        //     }
+        // }
+        Debug.Log("Add Item");
+        return true;
     }
 
  

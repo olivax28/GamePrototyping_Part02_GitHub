@@ -5,7 +5,7 @@ using UnityEngine;
 public class ItemInteractable : MonoBehaviour, IInteractable
 {
 
-public Sprite itemThumbnail;
+public GameObject itemThumbnail;
   private InventoryController inventoryController;
 
   void Start()
@@ -26,6 +26,10 @@ public Sprite itemThumbnail;
      TriggerPickup();
     }
 
+public void TriggerSomething()
+    {
+        Debug.Log("triggersomething");
+    }
 
     private void TriggerPickup()
     {
@@ -33,8 +37,10 @@ public Sprite itemThumbnail;
          bool itemAdded = inventoryController.AddItem(gameObject);
          if (itemAdded)
                 {
-                    Debug.Log("interacted???");
+                    Debug.Log("interacted");
+                    itemThumbnail.SetActive(true);
                     Destroy(gameObject);
+                    TriggerSomething();
                 }
     }
     // void OnTriggerEnter(Collider collision)
