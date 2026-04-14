@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1512
     height: 847
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 332}
   m_MaxSize: {x: 10000, y: 10000}
@@ -1208,9 +1208,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 643.96313, y: 431.73206, z: -0.8942943}
+    m_Target: {x: 4.6522818, y: -0.70131403, z: 7.391296}
     speed: 2
-    m_Value: {x: 643.96313, y: 431.73206, z: -0.8942943}
+    m_Value: {x: 4.6522818, y: -0.70131403, z: 7.391296}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1256,20 +1256,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.01080933, y: -0.005406992, z: 0.00006547965, w: -0.9999517}
+    m_Target: {x: -0.09908124, y: -0.03671765, z: 0.0036607825, w: -0.99442106}
     speed: 2
-    m_Value: {x: -0.010809329, y: -0.0054069916, z: 0.00006547965, w: -0.9999517}
+    m_Value: {x: -0.09908123, y: -0.03671765, z: 0.0036607822, w: -0.994421}
   m_Size:
-    m_Target: 536.3639
+    m_Target: 6.691813
     speed: 2
-    m_Value: 536.3639
+    m_Value: 6.691813
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1
-    m_SpeedNormalized: 0.5
+    m_Speed: 1.0030099
+    m_SpeedNormalized: 0.49899995
     m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -1341,25 +1341,27 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -62318
-      - m_Data: -4458
-      - m_Data: -4446
-      - m_Data: -4432
-      - m_Data: -4428
-      - m_Data: -3840
-      - m_Data: -1370
-      - m_Data: -12
-      - m_Data: 52784
-      - m_Data: 52806
-      - m_Data: 52912
-      - m_Data: 53052
-      - m_Data: 53322
-      - m_Data: 53456
-      - m_Data: 53488
-      - m_Data: 53532
-      - m_Data: 53626
-      - m_Data: 53704
-      - m_Data: 53912
+      - m_Data: -29864
+      - m_Data: -18122
+      - m_Data: -13016
+      - m_Data: -11712
+      - m_Data: -10750
+      - m_Data: -10512
+      - m_Data: -1294
+      - m_Data: 47024
+      - m_Data: 47456
+      - m_Data: 47692
+      - m_Data: 47744
+      - m_Data: 47936
+      - m_Data: 48070
+      - m_Data: 48088
+      - m_Data: 48202
+      - m_Data: 48376
+      - m_Data: 70562
+      - m_Data: 70592
+      - m_Data: 70710
+      - m_Data: 70984
+      - m_Data: 71678
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1377,7 +1379,7 @@ MonoBehaviour:
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
-        m_ClientGUIView: {fileID: 10}
+        m_ClientGUIView: {fileID: 0}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -2798,7 +2800,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -2808,22 +2810,22 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: 16
   m_LastProjectPath: /Users/olivia28/Documents/GamePrototyping_Part02_GitHub/game_prototype_final_QuestSystem
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 31}
+    scrollPos: {x: 0, y: 172.9931}
     m_SelectedIDs:
-    - m_Data: 53984
+    - m_Data: 49898
     m_LastClickedID:
-      m_Data: 53984
+      m_Data: 49898
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 49738
-    - m_Data: 49740
+    - m_Data: 49860
+    - m_Data: 49862
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2856,8 +2858,8 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 49738
-    - m_Data: 49740
+    - m_Data: 49860
+    - m_Data: 49862
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2885,8 +2887,8 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: -62330
-    m_LastClickedInstanceID: -62330
+    - m_Data: 71678
+    m_LastClickedInstanceID: 71678
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs:
     - m_Data: 63032
@@ -2917,7 +2919,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 18.5}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 210
