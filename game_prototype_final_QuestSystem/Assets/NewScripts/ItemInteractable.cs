@@ -6,6 +6,7 @@ public class ItemInteractable : MonoBehaviour, IInteractable
 {
 
 public GameObject itemThumbnail;
+public GameObject UIInsertDisc;
   private InventoryController inventoryController;
 
   void Start()
@@ -39,6 +40,7 @@ public void TriggerSomething()
                 {
                     Debug.Log("interacted");
                     itemThumbnail.SetActive(true);
+                    UIInsertDisc.SetActive(true);
                     Destroy(gameObject);
                     TriggerSomething();
                 }

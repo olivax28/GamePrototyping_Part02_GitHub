@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1512
     height: 847
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 332}
   m_MaxSize: {x: 10000, y: 10000}
@@ -1208,9 +1208,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 636.8447, y: 587.3662, z: 2.5480554}
+    m_Target: {x: 643.96313, y: 431.73206, z: -0.8942943}
     speed: 2
-    m_Value: {x: 640.19574, y: 472.27325, z: -19.06311}
+    m_Value: {x: 643.96313, y: 431.73206, z: -0.8942943}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1258,11 +1258,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.01080933, y: -0.005406992, z: 0.00006547965, w: -0.9999517}
     speed: 2
-    m_Value: {x: -0.05278509, y: -0.005991132, z: 0.00032152873, w: -0.9986112}
+    m_Value: {x: -0.010809329, y: -0.0054069916, z: 0.00006547965, w: -0.9999517}
   m_Size:
-    m_Target: 375.01614
+    m_Target: 536.3639
     speed: 2
-    m_Value: 407.86172
+    m_Value: 536.3639
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1341,20 +1341,25 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -21488
-      - m_Data: -1294
-      - m_Data: 46948
-      - m_Data: 46964
-      - m_Data: 46982
-      - m_Data: 47156
-      - m_Data: 47176
-      - m_Data: 47246
-      - m_Data: 47278
-      - m_Data: 47400
-      - m_Data: 47440
-      - m_Data: 47448
-      - m_Data: 47526
-      - m_Data: 47856
+      - m_Data: -62318
+      - m_Data: -4458
+      - m_Data: -4446
+      - m_Data: -4432
+      - m_Data: -4428
+      - m_Data: -3840
+      - m_Data: -1370
+      - m_Data: -12
+      - m_Data: 52784
+      - m_Data: 52806
+      - m_Data: 52912
+      - m_Data: 53052
+      - m_Data: 53322
+      - m_Data: 53456
+      - m_Data: 53488
+      - m_Data: 53532
+      - m_Data: 53626
+      - m_Data: 53704
+      - m_Data: 53912
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1372,7 +1377,7 @@ MonoBehaviour:
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 10}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -2793,7 +2798,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sprites
+    - Assets
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -2803,22 +2808,22 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Sprites
+  - Assets
   m_LastFoldersGridSize: 16
   m_LastProjectPath: /Users/olivia28/Documents/GamePrototyping_Part02_GitHub/game_prototype_final_QuestSystem
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 147.70612}
+    scrollPos: {x: 0, y: 31}
     m_SelectedIDs:
-    - m_Data: 49268
+    - m_Data: 53984
     m_LastClickedID:
-      m_Data: 49268
+      m_Data: 53984
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 53984
-    - m_Data: 53986
+    - m_Data: 49738
+    - m_Data: 49740
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2851,8 +2856,8 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 53984
-    - m_Data: 53986
+    - m_Data: 49738
+    - m_Data: 49740
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2880,8 +2885,8 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: 47856
-    m_LastClickedInstanceID: 47856
+    - m_Data: -62330
+    m_LastClickedInstanceID: -62330
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs:
     - m_Data: 63032
@@ -2912,7 +2917,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 69}
+    m_ScrollPosition: {x: 0, y: 18.5}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 210
