@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CollectDiscs
   m_EditorClassIdentifier: Assembly-CSharp::Quest
   questID: de711d63-b2af-4782-af7c-949de9cbcb7e
-  questName: CollectDiscs
+  questName: Collect Disc
   description: Collect 5 Floppy Discs
   objectives:
   - objectiveID: 0

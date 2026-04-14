@@ -374,7 +374,7 @@ MonoBehaviour:
     m_DynamicPanelBehavior: 0
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 47856
+  m_LastSelectedObjectID: 0
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1208,7 +1208,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 640.19574, y: 472.27325, z: -19.06311}
+    m_Target: {x: 636.8447, y: 587.3662, z: 2.5480554}
     speed: 2
     m_Value: {x: 640.19574, y: 472.27325, z: -19.06311}
   m_RenderMode: 0
@@ -1256,11 +1256,11 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.052785087, y: 0.005991132, z: -0.00032152873, w: 0.99861115}
+    m_Target: {x: -0.01080933, y: -0.005406992, z: 0.00006547965, w: -0.9999517}
     speed: 2
     m_Value: {x: -0.05278509, y: -0.005991132, z: 0.00032152873, w: -0.9986112}
   m_Size:
-    m_Target: 407.86172
+    m_Target: 375.01614
     speed: 2
     m_Value: 407.86172
   m_Ortho:
@@ -1337,8 +1337,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs:
-      - m_Data: 47852
+      m_SelectedIDs: []
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
@@ -2818,8 +2817,8 @@ MonoBehaviour:
       m_Data: 49268
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 49132
-    - m_Data: 49134
+    - m_Data: 53984
+    - m_Data: 53986
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2852,8 +2851,8 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 49132
-    - m_Data: 49134
+    - m_Data: 53984
+    - m_Data: 53986
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
