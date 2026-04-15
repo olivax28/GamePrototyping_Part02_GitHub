@@ -1,7 +1,6 @@
 // using System.Numerics;
 using System.Runtime.CompilerServices;
 using TMPro;
-using UnityEditor.VersionControl;
 using UnityEngine;
 
 public class ChatBubble : MonoBehaviour
