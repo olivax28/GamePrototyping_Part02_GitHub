@@ -564,6 +564,63 @@ I'm happy with the progress we've made so far, and I think its pheasible to get 
 
 Please play the final version of "Temp" under the GitHub repo's gameBuild folder! (Build for Mac)
 
+Overall, I'm very satisfied with how far the project has come, even from last week! We met all our goals, and even had time to add music and edit the lighting. It's short but sweet and I feel like I've learnt so much about using Unity as a game engine. The project was simplified over the weeks that we've worked on it, but that doesn't mean that it isn't an accurate representation of our prototype. This week we:
+
+- refined the visuals of the desktop computer UI, adding hand-drawn sprites and background
+- added all the story content to the Windows within the computer UI
+- Fixed the issue we were having with the inventory and the storing of the Diskette object
+- edited the lighting
+- added a new scene upon loading of the Diskette, where the player gets transported to the liminal, grassy plane 
+- added a Quit button 
+
+## Game walthrough
+
+The game begins with the player in the office space, facing Fred, the NPC. Thhe player uses E to interact with all objects, as well as to advance the dialogue with Fred. To proceed, the player must accept his request to fix his computer.
+
 ![](media/final_Fred.gif)
+
+The player then has the option to search through the computer's files, deleting the required files will reveal others which give hints or advance the story. Under the Recycling bin, a player can find a strange image showing a green square. If they can figure out that this is a hint to where the Diskette is hidden, they can simply walk up to the TV with a green light, and collect the Diskette.
+
 ![](media/windows_final.gif)
+
+Upon returning to the computer, they will find that they are able to load the previously locked program requiring the Diskette, sending them to another dimension, a strange and liminal sort of space consisting of a grassy plane, and the electronics that usually surround them.
+
+Interacting with the giant version of the white PC will return them right back to the office, restarting the loop.
+And this Concludes "Temp"
+
 ![](media/grassyPlane.gif)
+
+If I had to place at what stage "Temp" is currently at as a prototype, I'd say it would still be in the early stages, were it to become a full-featured game. However, I think that as it is now it is a solid way of describing a concept and overall ambience, which is exactly what I wanted out of this. It may be short and lack the usual fancy UI of 'fully-fledged' games, but I nonetheless think that it holds strong a protoype.
+
+Temp went through a lot of changes, including two different Dialogue systems; a 3D bubble replaced with a flat UI for readability. We also changed different aspects of the game, such as swapping out the idea for a password for a Diskette, as we thought that it suited the game's overall 90's tech aesthetic better. Even the lighting, which I was at first satisfied with, changed last minute as we refined the game's overall visual style.
+
+
+New lighting and Dialogue VS Old lighting and Dialogue:
+New:
+![](media/final_Fred.gif)
+Old:
+![](media/new_lighting.png)
+![](media/interaction.gif)
+
+Funny you can also see how far the NPC (now named Fred) has come, starting out as a blue capsule.
+
+Yet some things that were discarded from the early stages actually game back to stay, like the grassy plane. At the beginning of the semester, I played with the idea of this "liminal" space that the game would end at, but soon thought to replace it with a different kind of ending. Finally, both Julia and I decided that it would be interesting to include it, especially since it seemed to enhance the themes behind the game, those which bring to attention the transient nature of technology, and the dangers of giving up thought for efficiency. 
+
+An early grass test 
+![](media/grass_test_resized01.gif)
+The final version of the Grassy plane:
+![](media/grassyPlane.gif)
+
+What's even more satisfying, is that we tested our game with a couple of friends, who both seemed to understand that they needed to find the diskette, and understood the green-square hint. Although it often took them a few moments, they both had an "aha" moment once they noticed one of the TVs had a different colored light.
+
+## Final Notes
+Again, I learnt so much about Unity, C# coding and, of course, the process of game design an prototyping. I am satisfied with how "Temp" turned out, and with how far I've come using Unity for Game-making.
+
+As well, thanks to these youtube channels for helping Julia and I build the bases for the necessary systems used in "Temp".
+
+http://www.youtube.com/@GameCodeLibrary
+http://www.youtube.com/@CodeMonkeyUnity
+
+As well, the objects not modelled by me or Julia were downloaded from the Unity asset store, which includes the office furniture and the grass asset.
+
+Thank you and have a great summer!
