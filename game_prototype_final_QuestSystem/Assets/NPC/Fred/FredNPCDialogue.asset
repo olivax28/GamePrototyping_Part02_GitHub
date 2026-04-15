@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
   npcName: Fred
   dialogueLines:
-  - Hey, uh, my computer's busted.
+  - "I downloaded a \u201Cproductivity software\u201D from the WORLD WIDE WEB and
+    my computer hasn\u2019t been the same since\u2026 "
   - Can ya fix it?
   - Yay!
   - Ugh...
