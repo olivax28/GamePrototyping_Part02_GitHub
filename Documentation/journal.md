@@ -559,3 +559,11 @@ As well, a simple "bobbing" animation was added to the Fred NPC, which was simpl
 At this point, we need to prioritize getting the game running. It would be nice to add in the UI sprites, and actually get functionality within the computer system. It would be fine to "fake" an inventory, as long as the story can be told.
 
 I'm happy with the progress we've made so far, and I think its pheasible to get basic functinality done by the end of the week. I don't even think that adding a start menu and other small visual things is out of the question as well. Hopefully we'll sort out the inventory problem and have a build on Thursday!
+
+## Final build and last Journal!!! 2026-04-14
+
+Please play the final version of "Temp" under the GitHub repo's gameBuild folder! (Build for Mac)
+
+![](media/final_Fred.gif)
+![](media/windows_final.gif)
+![](media/grassyPlane.gif)
